@@ -7,4 +7,5 @@ test("should render AddExpense page", () => {
 	const history = { push: jest.fn() };
 	const wrapper = shallow(<AddExpensePage onSubmit={onSubmit} history={history} />);
 	expect(wrapper).toMatchSnapshot();
+	// this is a test
 });
