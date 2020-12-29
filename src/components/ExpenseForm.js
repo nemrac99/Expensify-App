@@ -2,7 +2,6 @@ import React from "react";
 import moment from "moment";
 import 'react-dates/initialize';
 import { SingleDatePicker } from "react-dates";
-import 'react-dates/lib/css/_datepicker.css';
 
 
 export default class ExpenseForm extends React.Component {
@@ -53,8 +52,7 @@ export default class ExpenseForm extends React.Component {
 				amount: parseFloat(this.state.amount, 10) * 100,
 				createdAt: this.state.createdAt.valueOf(),
 				note: this.state.note
-
-			})
+			});
 		}
 	};
 	
