@@ -13,7 +13,6 @@ beforeEach(() => {
 
 test("should render AddExpense page", () => {
 	expect(wrapper).toMatchSnapshot();
-	// this is a test
 });
 
 test("handle onSubmit", () => {

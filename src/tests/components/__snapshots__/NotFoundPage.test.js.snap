@@ -3,10 +3,11 @@
 exports[`should render Not Found page 1`] = `
 <div>
   404 
-  <[object Object]
+  <Link
+    replace={false}
     to="/"
   >
     Home
-  </[object Object]>
+  </Link>
 </div>
 `;
